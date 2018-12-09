@@ -19,7 +19,7 @@ namespace NUnit.VisualStudio.TestAdapter.Internal
 
 		public Stacktrace(string stackTrace)
 		{
-			ValidateArg.NotNullOrEmpty(stackTrace, "stackTrace");
+			//ValidateArg.NotNullOrEmpty(stackTrace, "stackTrace");
 
 			var stackFrameParser = StackFrameParser.CreateStackFrameParser();
 

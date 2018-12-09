@@ -49,7 +49,7 @@ namespace NUnit.VisualStudio.TestAdapter.Internal
 
 		public StackFrame GetStackFrame(string line)
 		{
-			ValidateArg.NotNullOrEmpty(line, "line");
+			//ValidateArg.NotNullOrEmpty(line, "line");
 
 			Match match = frameWithFileInfoRegex.Match(line);
 			if (match.Success)
